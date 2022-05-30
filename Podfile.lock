@@ -1,0 +1,31 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Intercom (5.5.2)
+  - SnowplowTracker (1.7.1):
+    - FMDB (~> 2.6)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - FMDB
+  - Intercom
+  - SnowplowTracker (~> 1.5)
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+    - Intercom
+    - SnowplowTracker
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Intercom: 1151a15e5e7931d8e401671a4357239d44325159
+  SnowplowTracker: c393b26c456142ad5a78f4e4d771c71cb194f06c
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: fde6a1d8e2f1719a739c0f0e97b5762b837611f3
+
+COCOAPODS: 1.8.4

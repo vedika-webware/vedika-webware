@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'Webware' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  #use_frameworks!
+  
+  
+  
+  # Pods for WebwarePay
+  pod 'SwiftyJSON', '~> 4.0'
+
+  target 'WebwareTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'WebwareUITests' do
+    # Pods for testing
+  end
+  pod 'SnowplowTracker', '~> 1.5'
+  pod 'Intercom'
+  pod 'FMDB'
+  #pod 'AWSMobileClient'
+  #pod 'AWSPinpoint'
+  #pod 'AWSCore'
+  #pod 'AWSSNS'
+end
